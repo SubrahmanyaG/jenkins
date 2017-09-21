@@ -1,1 +1,1 @@
-web:  java -jar jenkins.war 0.0.0.0:$PORT
+web: java -jar jenkins.war --httpPort=$PORT --ajp13Port=-1 --httpsPort=-1
